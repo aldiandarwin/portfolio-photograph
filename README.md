@@ -6,28 +6,26 @@ Additionally, Husky and Prettier have been installed to enhance code quality and
 
 ## Features
 
-Home
+### Home
+
 Landing page showcasing the photographer's portfolio.
 
 ![mockup-home.png](https://github.com/aldiandarwin/portfolio-photograph/assets/70283015/1edec6af-7d76-42d8-8a0a-dba790e98e47)
 
-Testimonials
+### Testimonials
+
 Testimonial section containing pricing information.
 ![testimoni-mockup.png](https://github.com/aldiandarwin/portfolio-photograph/assets/70283015/cd3671bf-16c2-4de3-a5d8-c4f78f26439b)
 
-Work
-
-Portfolio section displaying a list of clients.
-
-Contact Us
+### Contact Us
 
 Contact page featuring a call-to-action for email inquiries.
 
 ![contact-mockup.png](https://github.com/aldiandarwin/portfolio-photograph/assets/70283015/c7a76ce4-b75d-41f2-85af-d98bea9bc885)
 
-Blog
+### Blog
 
-Accessible at <localhost:3000/blog>, this page offers insightful articles sharing the author's experiences.
+Accessible at [localhost:3000/blog], this page offers insightful articles sharing the author's experiences.
 
 ![blog-mockup.png](https://github.com/aldiandarwin/portfolio-photograph/assets/70283015/14f774ce-7cba-4460-a462-02b6ecfaadce)
 
@@ -64,4 +62,4 @@ Copy code
 npm run dev
 ```
 
-Open your browser and visit <localhost:3000> to explore the application
+Open your browser and visit [localhost:3000] to explore the application
