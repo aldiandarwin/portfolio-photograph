@@ -1,0 +1,50 @@
+/* global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-['Lato'] font-[sans-serif];
+}
+
+body {
+  @apply bg-gradient-to-b from-[#001932] via-[#001932] to-[#000000];
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-['Raleway'] font-[sans-serif] text-white;
+}
+
+.logo {
+  @apply font-['Raleway'] font-bold;
+}
+
+.container {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px 1px;
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) and (max-width: 1240px) {
+  .container {
+    width: 90%; /* Adjusted width for larger screens */
+  }
+}
+
+/* ... other styles ... */
+
+/* Responsive adjustments for the menu */
+@media (max-width: 767px) {
+  .footer {
+    @apply hidden;
+  }
+
+  .footer-container {
+    @apply flex-col;
+  }
+}
